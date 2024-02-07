@@ -1027,6 +1027,9 @@
     "/caai/:caty": [
         "tudou027"
     ],
+    "/caam/:category?": [
+        "nczitzk"
+    ],
     "/caareviews/book": [
         "Fatpandac"
     ],
@@ -4500,7 +4503,7 @@
         "TonyRL"
     ],
     "/modian/zhongchou/:category?/:sort?/:status?": [],
-    "/modrinth/project/:id/versions": [
+    "/modrinth/project/:id/versions/:routeParams?": [
         "SettingDust"
     ],
     "/mofish/:id": [],
@@ -4681,7 +4684,7 @@
     "/newrank/wechat/:wxid": [
         "lessmoe"
     ],
-    "/news/whxw": [
+    "/news/xhsxw": [
         "nczitzk"
     ],
     "/newsmarket/:category?": [
@@ -5058,6 +5061,9 @@
         "nczitzk"
     ],
     "/one": [],
+    "/onehu": [
+        "ruoshui9527"
+    ],
     "/onejav/:type/:key?": [],
     "/onenotegem/release": [],
     "/onet/news": [
@@ -5180,6 +5186,9 @@
         "Fatpandac"
     ],
     "/parcel/hermesuk/:tracking": [],
+    "/parliament/section77/:type?": [
+        "itpcc"
+    ],
     "/patagonia/patagonia/new-arrivals/:category": [
         "EthanWng97"
     ],
@@ -7093,6 +7102,9 @@
     "/weexcn/news/:typeid": [],
     "/wegene/column/:type/:category": [],
     "/wegene/newest": [],
+    "/weibo/friends/:routeParams?": [
+        "CaoMeiYouRen"
+    ],
     "/weibo/group/:gid/:gname?/:routeParams?": [
         "monologconnor",
         "Rongronggg9"
