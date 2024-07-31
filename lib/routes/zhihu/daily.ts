@@ -12,7 +12,7 @@ async function dohResolve(name) {
         searchParams: {
             name,
             type: 'A',
-            edns_client_subnet: '1.12.12.12', // 使用国内的ip地址
+            edns_client_subnet: '114.114.114.114', // 使用国内的ip地址
         },
         headers: {
             accept: 'application/dns-json',
