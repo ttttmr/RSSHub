@@ -8,11 +8,11 @@ import { parseDate } from '@/utils/parse-date';
 // 文章给出了v4版 api的信息，包含全文api
 
 async function dohResolve(name) {
-    const response = await got('https://223.5.5.5/resolve', {
+    const response = await got('https://1.12.12.12/dns-query', {
         searchParams: {
             name,
             type: 'A',
-            edns_client_subnet: '223.5.5.5', // 使用国内的ip地址
+            edns_client_subnet: '1.12.12.12', // 使用国内的ip地址
         },
         headers: {
             accept: 'application/dns-json',
