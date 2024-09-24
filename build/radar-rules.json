@@ -1450,6 +1450,19 @@
       }
     ]
   },
+  "anime1.me": {
+    "_name": "Anime1",
+    ".": [
+      {
+        "title": "Anime",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/category/:category/:name"
+        ],
+        "target": "/anime1/anime/:category/:name"
+      }
+    ]
+  },
   "annualreviews.org": {
     "_name": "Annual Reviews",
     ".": [
@@ -1670,21 +1683,26 @@
       }
     ]
   },
-  "asus.com.cn": {
+  "asus.com": {
     "_name": "ASUS",
-    ".": [
+    "www": [
       {
         "title": "BIOS",
         "docs": "https://docs.rsshub.app/routes/program-update",
         "source": [
+          "/displays-desktops/:productLine/:series/:model",
+          "/laptops/:productLine/:series/:model",
+          "/motherboards-components/:productLine/:series/:model",
+          "/networking-iot-servers/:productLine/:series/:model",
+          "/:region/displays-desktops/:productLine/:series/:model",
+          "/:region/laptops/:productLine/:series/:model",
+          "/:region/motherboards-components/:productLine/:series/:model",
+          "/:region/networking-iot-servers/:productLine/:series/:model",
           "/"
         ],
         "target": "/asus/bios/:model"
       }
-    ]
-  },
-  "asus.com": {
-    "_name": "ASUS",
+    ],
     ".": [
       {
         "title": "GPU Tweak",
@@ -4149,6 +4167,16 @@
         ],
         "target": "/cls/telegraph"
       }
+    ],
+    "www": [
+      {
+        "title": "话题",
+        "docs": "https://docs.rsshub.app/routes/finance",
+        "source": [
+          "/subject/:id"
+        ],
+        "target": "/clsparams=>{const id=params.id;return`/subject${id?`/${id}`:\"\"}`}"
+      }
     ]
   },
   "cmpxchg8b.com": {
@@ -5736,12 +5764,25 @@
       }
     ]
   },
+  "dykszx.com": {
+    "_name": "德阳人事考试网",
+    "www": [
+      {
+        "title": "考试新闻发布",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/"
+        ],
+        "target": "/dykszx/news/all"
+      }
+    ]
+  },
   "eagle.cool": {
     "_name": "Eagle",
     "cn": [
       {
         "title": "Blog",
-        "docs": "https://docs.rsshub.app/routes/design",
+        "docs": "https://docs.rsshub.app/routes/blog",
         "source": [
           "/blog"
         ],
@@ -6042,6 +6083,19 @@
           "/:locale/free-games"
         ],
         "target": "/epicgames/freegames/:locale"
+      }
+    ]
+  },
+  "espn.com": {
+    "_name": "ESPN",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:sport*"
+        ],
+        "target": "/espn/news/:sport"
       }
     ]
   },
@@ -6843,6 +6897,14 @@
   "gamer.com.tw": {
     "_name": "巴哈姆特電玩資訊站",
     "ani": [
+      {
+        "title": "動畫瘋 - 動畫",
+        "docs": "https://docs.rsshub.app/routes/anime",
+        "source": [
+          "/"
+        ],
+        "target": "/gamer/anime/:sn"
+      },
       {
         "title": "動畫瘋 - 最後更新",
         "docs": "https://docs.rsshub.app/routes/anime",
@@ -9456,7 +9518,7 @@
     "_name": "Hacker News",
     "news": [
       {
-        "title": "用户",
+        "title": "User",
         "docs": "https://docs.rsshub.app/routes/programming",
         "source": [
           "/:section",
@@ -15855,13 +15917,21 @@
     "_name": "国家地理",
     ".": [
       {
-        "title": "每日一图",
+        "title": "Daily Photo",
         "docs": "https://docs.rsshub.app/routes/picture",
         "source": [
           "/photo-of-the-day/*",
           "/"
         ],
         "target": "/natgeo/dailyphoto"
+      },
+      {
+        "title": "Daily Selection",
+        "docs": "https://docs.rsshub.app/routes/picture",
+        "source": [
+          "/"
+        ],
+        "target": "/natgeo/dailyselection"
       }
     ],
     "www": [
@@ -16579,7 +16649,7 @@
     "_name": "New Yorker",
     ".": [
       {
-        "title": "The New Yorker",
+        "title": "Articles",
         "docs": "https://docs.rsshub.app/routes/traditional-media",
         "source": [
           "/:category"
@@ -16700,6 +16770,20 @@
           "/bulletin"
         ],
         "target": "/niaogebiji/today"
+      }
+    ]
+  },
+  "nicovideo.jp": {
+    "_name": "Niconico",
+    "www": [
+      {
+        "title": "User Videos",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/user/:id",
+          "/user/:id/video"
+        ],
+        "target": "/nicovideo/user/:id/video"
       }
     ]
   },
@@ -17390,6 +17474,19 @@
           "/"
         ],
         "target": "/nytimes/:lang?"
+      }
+    ]
+  },
+  "obsidian.md": {
+    "_name": "Obsidian",
+    "publish": [
+      {
+        "title": "Publish",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/"
+        ],
+        "target": "/obsidian/publish/:id"
       }
     ]
   },
@@ -24775,6 +24872,27 @@
           "/"
         ],
         "target": "/yicai/vip/:id"
+      }
+    ]
+  },
+  "yilinzazhi.com": {
+    "_name": "意林杂志",
+    "www": [
+      {
+        "title": "文章列表",
+        "docs": "https://docs.rsshub.app/routes/reading",
+        "source": [
+          "/"
+        ],
+        "target": "/yilinzazhi/"
+      },
+      {
+        "title": "近期文章汇总",
+        "docs": "https://docs.rsshub.app/routes/reading",
+        "source": [
+          "/"
+        ],
+        "target": "/yilinzazhi/"
       }
     ]
   },

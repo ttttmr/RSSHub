@@ -185,7 +185,8 @@
     "sddiky"
   ],
   "/51cto/index/recommend": [
-    "cnkmmk"
+    "cnkmmk",
+    "ovo-tim"
   ],
   "/51read/article/:id": [
     "lazwa34"
@@ -410,6 +411,12 @@
   "/android/platform-tools-releases": [
     "nczitzk"
   ],
+  "/anime1anime/:category/:name": [
+    "cxheng315"
+  ],
+  "/anime1search/:keyword": [
+    "cxheng315"
+  ],
   "/annualreviews/:id": [
     "nczitzk"
   ],
@@ -499,7 +506,7 @@
   "/asmr-200/works/:order?/:subtitle?/:sort?": [
     "hualiong"
   ],
-  "/asus/bios/:model": [
+  "/asus/bios/:model/:lang?": [
     "Fatpandac"
   ],
   "/asus/gpu-tweak": [
@@ -1169,7 +1176,11 @@
   "/chaincatcher/news": [
     "TonyRL"
   ],
-  "/changba/:userid": [],
+  "/changba/:userid": [
+    "kt286",
+    "xizeyoupan",
+    "pseudoyu"
+  ],
   "/chaoxing/qk/:id/:needContent?": [
     "nczitzk"
   ],
@@ -1263,6 +1274,9 @@
   ],
   "/cls/hot": [
     "5upernova-heng",
+    "nczitzk"
+  ],
+  "/cls/subject/:id?": [
     "nczitzk"
   ],
   "/cls/telegraph/:category?": [
@@ -1874,6 +1888,9 @@
   "/dxy/bbs/profile/thread/:userId": [
     "TonyRL"
   ],
+  "/dykszx/news/:newsType?": [
+    "zytomorrow"
+  ],
   "/e-hentai/:what?/:id?/:needTorrents?/:needImages?": [],
   "/eagle/blog/:cate?/:language?": [
     "Fatpandac"
@@ -1979,6 +1996,9 @@
   ],
   "/eprice/:region?": [
     "TonyRL"
+  ],
+  "/espn/news/:sport": [
+    "weijianduan0302"
   ],
   "/esquirehk/tag/:id?": [
     "nczitzk"
@@ -2222,14 +2242,21 @@
   ],
   "/gamer/gnn/:category?": [
     "Arracc",
-    "ladeng07"
+    "ladeng07",
+    "pseudoyu"
   ],
   "/gamer/hot/:bsn": [
     "nczitzk",
     "TonyRL"
   ],
-  "/gamer/ani/anime/:sn": [],
-  "/gamer/ani/new_anime": [],
+  "/gamer/ani/anime/:sn": [
+    "maple3142",
+    "pseudoyu"
+  ],
+  "/gamer/ani/new_anime": [
+    "maple3142",
+    "pseudoyu"
+  ],
   "/gamer520/:category?/:order?": [
     "xzzpig"
   ],
@@ -3698,7 +3725,8 @@
   "/leiphone/:do?/:keyword?": [],
   "/leiphone/newsflash": [],
   "/lemmy/:community/:sort?": [
-    "wb14123"
+    "wb14123",
+    "pseudoyu"
   ],
   "/lfsyd/home": [
     "auto-bot-ty"
@@ -3897,7 +3925,8 @@
     "TonyRL"
   ],
   "/mastodon/account_id/:site/:account_id/statuses/:only_media?": [
-    "notofoe"
+    "notofoe",
+    "pseudoyu"
   ],
   "/mastodon/acct/:acct/statuses/:only_media?": [
     "notofoe"
@@ -4140,10 +4169,12 @@
   "/natgeo/dailyphoto": [
     "LogicJake",
     "OrangeEd1t",
-    "TonyRL"
+    "TonyRL",
+    "pseudoyu"
   ],
   "/natgeo/dailyselection": [
-    "OrangeEd1t"
+    "OrangeEd1t",
+    "pseudoyu"
   ],
   "/natgeo/:cat/:type?": [
     "fengkx"
@@ -4240,7 +4271,8 @@
     "nczitzk"
   ],
   "/newyorker/:category": [
-    "EthanWng97"
+    "EthanWng97",
+    "pseudoyu"
   ],
   "/newzmz/:id?/:downLinkType?": [
     "nczitzk"
@@ -4273,7 +4305,8 @@
     "Andiedie"
   ],
   "/nhk/news/:lang?": [
-    "TonyRL"
+    "TonyRL",
+    "pseudoyu"
   ],
   "/niaogebiji/cat/:cat": [
     "cKotoriKat"
@@ -4283,6 +4316,9 @@
   ],
   "/niaogebiji/today": [
     "KotoriK"
+  ],
+  "/nicovideo/user/:id/video/:embed?": [
+    "TonyRL"
   ],
   "/nifd/research/:categoryGuid?": [
     "Fatpandac"
@@ -4572,14 +4608,19 @@
     "xtexChooser"
   ],
   "/nytimes/book/:category?": [
-    "melvinto"
+    "melvinto",
+    "pseudoyu"
   ],
   "/nytimes/daily_briefing_chinese": [
     "yueyericardo",
     "nczitzk"
   ],
   "/nytimes/:lang?": [
-    "HenryQW"
+    "HenryQW",
+    "pseudoyu"
+  ],
+  "/obsidian/publish/:id": [
+    "Xy2002"
   ],
   "/oceanengine/index/:keyword/:channel?": [
     "Jkker"
@@ -5377,15 +5418,31 @@
   "/sdu/epe/:type?": [
     "Ji4n1ng"
   ],
+  "/sdu/gjsw/:type?": [
+    "kukeya"
+  ],
   "/sdu/mech/:type?": [
     "Ji4n1ng"
   ],
   "/sdu/sc/:type?": [
     "Ji4n1ng"
   ],
+  "/sdu/ygb/:type?": [
+    "kukeya"
+  ],
   "/sdu/cs/index/:type?": [
     "Ji4n1ng",
     "wiketool"
+  ],
+  "/sdu/cs/yjsgz/:type?": [
+    "kukeya",
+    "wiketool"
+  ],
+  "/sdu/qd/xszxqd/:type?": [
+    "kukeya"
+  ],
+  "/sdu/qd/xyb/:type?": [
+    "kukeya"
   ],
   "/sdu/wh/jwc/:column?": [
     "kxxt"
@@ -7013,6 +7070,12 @@
   ],
   "/yicai/vip/:id?": [
     "nczitzk"
+  ],
+  "/yilinzazhi/": [
+    "g0ngjie"
+  ],
+  "/yilinzazhi/latest": [
+    "g0ngjie"
   ],
   "/ymgal/article/:type?": [
     "SunBK201"
