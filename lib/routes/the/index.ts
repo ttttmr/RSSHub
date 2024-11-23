@@ -13,7 +13,7 @@ import timezone from '@/utils/timezone';
 
 export const handler = async (ctx) => {
     const { filter } = ctx.req.param();
-    const limit = ctx.req.query('limit') ? Number.parseInt(ctx.req.query('limit'), 10) : 50;
+    const limit = ctx.req.query('limit') ? Number.parseInt(ctx.req.query('limit'), 10) : 40;
 
     const rootUrl = 'https://the.bi/s';
     const filters = parseFilterStr(filter);
@@ -36,6 +36,8 @@ export const handler = async (ctx) => {
         const guid = item.guid?.rendered ?? item.guid;
 
         const $$ = load(item.content?.rendered ?? item.content);
+
+        const publication = $$("a[id='publication']").text(); // Must be obtained before being removed
 
         const image = $$('img#poster').prop('data-srcset');
 
@@ -83,7 +85,7 @@ export const handler = async (ctx) => {
             updated: timezone(parseDate(item.modified_gmt), 0),
             link: item.link,
             category: [...new Set(terminologies.flat().map((c) => c.name))],
-            author: item._embedded.author.map((a) => a.name).join('/'),
+            author: [...item._embedded.author, { name: publication }],
             guid,
             id: guid,
             content: {
