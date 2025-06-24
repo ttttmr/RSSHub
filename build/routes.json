@@ -9354,6 +9354,29 @@
         "url": "www.anthropic.com/news",
         "location": "news.ts",
         "module": "() => import('@/routes/anthropic/news.ts')"
+      },
+      "/research": {
+        "path": "/research",
+        "categories": [
+          "programming"
+        ],
+        "example": "/anthropic/research",
+        "parameters": {},
+        "radar": [
+          {
+            "source": [
+              "www.anthropic.com/research",
+              "www.anthropic.com"
+            ]
+          }
+        ],
+        "name": "Research",
+        "maintainers": [
+          "ttttmr"
+        ],
+        "url": "www.anthropic.com/research",
+        "location": "research.ts",
+        "module": "() => import('@/routes/anthropic/research.ts')"
       }
     },
     "name": "Anthropic",
