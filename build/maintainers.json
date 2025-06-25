@@ -1515,6 +1515,9 @@
   "/chnmuseum/zx/xwzt": [
     "ShabbyWhineYear"
   ],
+  "/chocolatey/packages/:id": [
+    "nczitzk"
+  ],
   "/chongbuluo/newthread": [
     "qiye45"
   ],
@@ -1999,6 +2002,9 @@
   ],
   "/deepin/threads/:type?": [
     "myml"
+  ],
+  "/deepl/blog/:lang?": [
+    "nczitzk"
   ],
   "/deeplearning/the-batch/:tag{.+}?": [
     "nczitzk",
@@ -6522,6 +6528,9 @@
   ],
   "/samd/news/:typeId": [
     "hualiong"
+  ],
+  "/samrdprc/news/:type1/:type2": [
+    "a180285"
   ],
   "/samsung/research/blog": [
     "nczitzk"
