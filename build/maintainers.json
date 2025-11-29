@@ -1372,6 +1372,9 @@
   "/ccac/news/:type/:lang?": [
     "linbuxiao"
   ],
+  "/ccagm/:category{.+}?": [
+    "nczitzk"
+  ],
   "/cccfna/:category/:type?": [
     "hualiong"
   ],
@@ -2173,6 +2176,9 @@
   "/dgtle/article/:id?/:pushed?": [
     "nczitzk"
   ],
+  "/dgtle/feed": [
+    "nczitzk"
+  ],
   "/dgtle/news/:id?": [
     "nczitzk"
   ],
@@ -2541,14 +2547,75 @@
     "quiniapiezoelectricity"
   ],
   "/ecnu/bksy": [
+    "FrozenStarrrr",
     "ChiyoYuki",
-    "FrozenStarrrr"
+    "ECNU-minus"
+  ],
+  "/ecnu/cee": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
   ],
   "/ecnu/acm/contest/:category?": [
     "a180285"
   ],
+  "/ecnu/cs": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
+  ],
+  "/ecnu/dase": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
+  ],
+  "/ecnu/dx": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
+  ],
+  "/ecnu/dxb": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
+  ],
+  "/ecnu/ed": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
+  ],
+  "/ecnu/geoai": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
+  ],
+  "/ecnu/ghcollege": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
+  ],
+  "/ecnu/history": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
+  ],
   "/ecnu/jwc": [
     "markbang"
+  ],
+  "/ecnu/mxcsy": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
+  ],
+  "/ecnu/philo": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
+  ],
+  "/ecnu/sei": [
+    "FrozenStarrrr",
+    "ChiyoYuki",
+    "ECNU-minus"
   ],
   "/ecnu/yjs": [
     "shengmaosu"
@@ -3108,6 +3175,9 @@
   "/geocaching/blogs/:language?": [
     "HankChow",
     "Konano"
+  ],
+  "/gesiba*": [
+    "sk22"
   ],
   "/getdr/": [
     "nczitzk"
@@ -4429,7 +4499,7 @@
   "/ithome/tw/feeds/:category": [
     "miles170"
   ],
-  "/iwara/users/:username?/:type?": [
+  "/iwara/users/:username/:type?": [
     "Fatpandac"
   ],
   "/iwara/subscriptions": [
@@ -6127,6 +6197,9 @@
   "/oeeee/app/reporter/:id": [
     "TimWu007"
   ],
+  "/oesw*": [
+    "sk22"
+  ],
   "/oilchem/:type?/:category?/:subCategory?": [
     "nczitzk"
   ],
@@ -6375,7 +6448,8 @@
     "micheal-death",
     "AiraNadih",
     "DIYgod",
-    "hyoban"
+    "hyoban",
+    "Rongronggg9"
   ],
   "/picnob.info/user/:id/:type?": [
     "TonyRL"
@@ -8634,6 +8708,9 @@
   "/washingtonpost/app/:category{.+}?": [
     "quiniapiezoelectricity"
   ],
+  "/wbv-gpa/:category?/:state?": [
+    "sk22"
+  ],
   "/wchscu/recruit": [
     "ViggoC"
   ],
@@ -8777,6 +8854,9 @@
   "/whu/gs/:type?": [
     "Delreyaa"
   ],
+  "/wiensued*": [
+    "sk22"
+  ],
   "/wikinews/latest": [
     "KotoriK"
   ],
@@ -8816,6 +8896,9 @@
   ],
   "/wnacg/tag/:tag": [
     "Gandum2077"
+  ],
+  "/wogem/:page?": [
+    "sk22"
   ],
   "/wohnnet/:category/:region/*": [
     "sk22"
@@ -9150,6 +9233,9 @@
   ],
   "/yna/:lang?/:channel?": [
     "quiniapiezoelectricity"
+  ],
+  "/ynet/list/:category?/:id?": [
+    "nczitzk"
   ],
   "/yoasobi-music/info/:category?": [],
   "/yoasobi-music/live": [
