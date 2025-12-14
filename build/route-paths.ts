@@ -2278,6 +2278,7 @@ export type RoutePath =
   | `/reactnewsletter/`
   | `/readhub/:category?`
   | `/readhub/daily`
+  | `/readsomethingwonderful/`
   | `/readwise/list/:routeParams?`
   | `/rebase/geekdaily`
   | `/remnote/changelog`
