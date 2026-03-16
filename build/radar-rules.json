@@ -12513,10 +12513,9 @@
         "title": "Blog",
         "docs": "https://docs.rsshub.app/routes/programming",
         "source": [
-          "/blog/1",
-          "/blog/:category/1"
+          "/blog/1"
         ],
-        "target": "/cognition/blog/:category?"
+        "target": "/cognition/blog"
       }
     ]
   },

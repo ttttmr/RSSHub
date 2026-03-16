@@ -1859,9 +1859,8 @@
     "Fatpandac"
   ],
   "/codeforces/recent-actions/:minrating?": [],
-  "/cognition/blog/:category?": [
-    "Loongphy",
-    "ttttmr"
+  "/cognition/blog": [
+    "Loongphy"
   ],
   "/cohere/blog": [
     "Loongphy"
